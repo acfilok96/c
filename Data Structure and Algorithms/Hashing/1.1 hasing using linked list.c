@@ -6,16 +6,18 @@
 #include<stdlib.h>
 #include<string.h>
 
+// structure
 typedef struct Node
 {
     int data;
     struct Node *next;
 }node;
 
+// globally initialization
 int key = 10 ;
 node* Hash_table[10];
 
-
+//Insert function
 void Insert_element()
 {
     int n;
@@ -35,7 +37,7 @@ void Insert_element()
     return;
 }
 
-
+// show the table
 void Show_table()
 {
     printf("\nShow the Table\n");
@@ -52,7 +54,7 @@ void Show_table()
     }
 }
 
-
+//main function
 int main()
 {
     for(int i=0;i<10;i++)
