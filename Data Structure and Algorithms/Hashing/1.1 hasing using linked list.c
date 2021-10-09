@@ -57,7 +57,7 @@ void Show_table()
 //main function
 int main()
 {
-    for(int i=0;i<10;i++)
+    for(int i=0;i<key;i++)
     {
         Hash_table[i]=(node *)malloc(sizeof(node));
         Hash_table[i]->data=8766223;
