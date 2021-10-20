@@ -12,7 +12,7 @@ choose 5 for check isEmpty
 
 #include<stdio.h>
 
-#define size 3
+#define size 100
 int array[size];
 int top=-1;
 
