@@ -1,5 +1,5 @@
 /*
-Here we created a array of size 100,
+Here we created a stack using array of size 100,
 the operation are given below:-
 
 choose 1 for push
