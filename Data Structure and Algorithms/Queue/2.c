@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-#define size 3
+#define size 100
 
 int array[size];
 int front=-1;
